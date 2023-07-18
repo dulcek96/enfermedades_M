@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastornos Mentales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/logo.png">
+</head>
+<body>
+    <main>
+        <div class="contenedor-superior">
+            <img src="imagenes/logo.png" alt="Logo" id="logo">
+            <h1>Trastornos Mentales</h1>
+        </div>
+
+        <div class="container">
+            <h3>¿Qué son los trastornos mentales?</h3>
+            <p>La salud mental tiene muchas alteraciones que se conocen como enfermedades o trastornos mentales, que afectan a los procesos afectivos y cognitivos, 
+            al estado de ánimo, el pensamiento y el comportamiento. Muchas personas sufren problemas de salud mental de tanto en tanto. En cambio, se convierte en enfermedad mental cuando los síntomas y signos permanecen,
+            provocan estrés en el paciente e impiden funcionar de forma normal.</p>
+            <br>
+            <h3>Trastornos mentales mas comunes</h3>
+            <ol>
+                <li>Trastornos de ansiedad</li>
+                <li>Depresión</li>
+                <li>Trastorno bipolar</li>
+                <li>Trastorno de estrés postraumático</li>
+                <li>Esquizofrenia</li>
+                <li>Trastornos del comportamiento alimentario</li>
+                <li>Trastornos de comportamiento disruptivo y disocial</li>
+                <li>Trastornos del neurodesarrollo/li>
+            </ol>
+            <img src="imagenes/schizophrenia.png" alt="Descripción de la imagen" class="imagen-normal">
+            <h3>Síntomas de trastornos mentales</h3> 
+            <p>Los síntomas de los trastornos mentales serán distintos según el problema que sufra el paciente, las circunstancias que lo provoquen y demás factores externos. Normalmente los síntomas pueden afectar a la conducta,
+                pensamientos y emociones del paciente, siendo los más comunes:</p>
+            <ul>
+                <li>Sentimientos de desánimo y tristeza</li>
+                <li>Incapacidad para concentrarse</li>
+                <li>Pensamientos confusos</li>
+                <li>Altibajos emocionales</li>
+                <li>Cambios repentinos de humor</li>
+                <li>Alejamiento de las actividades que solía hacer y de las amistades</li>
+                <li>Cansancio y baja energía</li>
+                <li>Trastornos del sueño</li>
+                <li>Delirio, alucinaciones o paranoias</li> 
+                <li>Imposibilidad para afrontar los problemas o el estrés de la vida cotidiana</li>
+                <li>Abuso de alcohol o drogas (en algunas ocasiones)</li>
+                <li>Trastornos alimenticios</li>
+                <li>Cambios en el deseo sexual</li> 
+                <li>Exceso de enfado o violencia</li>  
+                <li>Pensamientos suicidas</li>   
+            </ul>
+        </div> 
+        <div class="left-container">
+            <h3>Encuesta</h3>
+        </div>
+        <div class="left-container">
+            <form action="/enviarrespuesta">
+                <p>¿Cómo te sientes la mayor parte del tiempo?</p>
+                <label for="feliz">
+                    <input type="radio" name="como_te_sientes"> Feliz
+                </label>
+                <label for="Muy_bien">
+                    <input type="radio" name="como_te_sientes"> Muy bien
+                </label>
+                <label for="Bien">
+                    <input type="radio" name="como_te_sientes"> Bien
+                </label>
+                <label for="Mal">
+                    <input type="radio" name="como_te_sientes"> Mal
+                </label>
+                <label for="triste">
+                    <input type="radio" name="como_te_sientes"> Triste
+                </label>
+                <label for="Terrible">
+                    <input type="radio" name="como_te_sientes"> Terrible
+                </label>
+                <p>¿Cuántas horas duermes?</p>
+                <label for="pocas">
+                    <input type="radio" name="cuantas_horas_duermes"> 4 - 6 horas
+                </label>
+                <label for="suficientes">
+                    <input type="radio" name="cuantas_horas_duermes"> 6 - 8 horas
+                </label>
+                <label for="normal">
+                    <input type="radio" name="cuantas_horas_duermes"> + de 8 horas
+                </label>
+                <p>¿Tienes pensamientos recurrentes o obsesivos que te causan angustia?</p>
+            <label for="si10">
+                <input type="radio" name="pensamientos_obsesivos"> Sí
+            </label>
+            <label for="no10">
+                <input type="radio" name="pensamientos_obsesivos"> No
+            </label>
+            <p>¿Has experimentado cambios significativos en tus patrones de sueño o apetito recientemente?</p>
+            <label for="si1">
+                <input type="radio" name="cambios_sueno_apetito"> Sí
+            </label>
+            <label for="no1">
+                <input type="radio" name="cambios_sueno_apetito"> No
+            </label>
+            <br><br>
+            <input type="submit" value="Enviar respuestas">
+            </form>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <div class="contenedor-inferior">
+    <a href="https://www.who.int/es/news-room/fact-sheets/detail/mental-disorders"><h3>¿Quieres saber mas?</h3></a>
+    </div>
+</footer>
+</body>
+</html>
